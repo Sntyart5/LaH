@@ -4,6 +4,7 @@ export function History(){
         <>
             <div className='hitory container'>
                 <div className='row'>
+                    <h1>History</h1>
                     <div className='col-12 col-md-6'>
                         <h2>Descripcion</h2>
                         <p>
@@ -11,7 +12,7 @@ export function History(){
                         </p>
                         <img src="https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/foto7.jpg?alt=media&token=c2aca3fa-043a-4f7e-bfc5-c69bece353ee" alt="" className='img-fluid w-75 left-0' />
                     </div>
-                    <div className='col-12 col-md-6'>
+                    <div className='col-12 col-md-6' >
                         <img src="https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/foto5.jpg?alt=media&token=939da08d-9d66-403a-8ce0-27369434b88b" alt="" className='img-fluid w-75 left-0'/>
                         <h2>Historia</h2>
                         <p>

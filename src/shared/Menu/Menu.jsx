@@ -7,10 +7,10 @@ export function Menu() {
         <div className='menu'>
 
         <nav >
-                <a href="">Home</a>
-                <a href="">Discograpy</a>
-                <a href="">Data</a>
-                <a href="">Shop</a>
+                <Link href="" to="/">Home</Link>
+                <Link href="">Discograpy</Link>
+                <Link href="">Data</Link>
+                <Link to="/shop">Shop</Link>
         </nav>
         </div>
 

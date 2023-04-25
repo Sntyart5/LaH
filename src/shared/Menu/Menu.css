@@ -33,7 +33,7 @@ a::after{
     height: 2px;
     bottom: -3px;
     left: 0;
-    background-color: #0051ff;
+    background-color: rgb(120, 98, 168);
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
 }
