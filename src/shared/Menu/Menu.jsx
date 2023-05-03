@@ -8,8 +8,8 @@ export function Menu() {
 
         <nav >
                 <Link href="" to="/">Home</Link>
-                <Link href="">Discograpy</Link>
-                <Link href="">Data</Link>
+                <Link to="/colabs">Discograpy</Link>
+                <Link to="/fans">Fans</Link>
                 <Link to="/shop">Shop</Link>
         </nav>
         </div>

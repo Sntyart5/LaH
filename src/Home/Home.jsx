@@ -10,7 +10,7 @@ export function Home(){
                 <video autoPlay muted loop>
                     <source src="../../multi/video1.mp4" type="video/mp4"/>
                 </video>
-                <img className='logo' src="https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/fondo1-removebg-preview%20(1).png?alt=media&token=91b8a4f3-fbd3-433e-b456-2db88ca846ab" alt="" />
+                <img className='logo' src="https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/fondo1-removebg-preview%20(1).png?alt=media&token=1f125e74-cf1d-40b4-8e5c-3634199a5336" alt="" />
                 <div className='capa'> </div>
             </section>     
        
