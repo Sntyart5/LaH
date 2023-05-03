@@ -21,3 +21,17 @@
     background-color: #1c1c1d;
     color: aliceblue;
 }
+
+label{
+    font-size: 20px;
+    margin: 1%;
+}
+.formfan{
+    padding: 5%;
+}
+.ask{
+    padding: 2%;
+}
+.bnn{
+    margin: 7%;
+}
