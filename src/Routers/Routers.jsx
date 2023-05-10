@@ -5,6 +5,7 @@ import { Shop } from "../Shop/Shop"
 import { Footer } from "../shared/Footer/Footer"
 import { Fans } from "../Fans/Fans"
 import { Colabs } from "../Colabs/Colabs"
+import { Carga } from "../Hook/Carga"
 export function Ruta(){
     return(
         <>
@@ -16,6 +17,8 @@ export function Ruta(){
         <Route path="/shop" element={<Shop />}/>
         <Route path="/fans" element={<Fans />}/>
         <Route path="/colabs" element={<Colabs />}/>
+        <Route path="/hook" element={<Carga />}/>
+        
         
         </Routes>
             

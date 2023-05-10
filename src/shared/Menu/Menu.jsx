@@ -11,6 +11,7 @@ export function Menu() {
                 <Link to="/colabs">Discograpy</Link>
                 <Link to="/fans">Fans</Link>
                 <Link to="/shop">Shop</Link>
+                <Link to="/hook">Hook</Link>
         </nav>
         </div>
 

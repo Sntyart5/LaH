@@ -46,7 +46,13 @@ export function Colabs(){
 
         )
     
+        function quehagocuandosedeelevento(evento){
+            console.log(evento.target.classList.add('blancoynegro'))
 
+        }
+        function locontrario(evento){
+            console.log(evento.target.classList.remove('blancoynegro'))
+        }
 
 
 
@@ -77,7 +83,7 @@ export function Colabs(){
 
                     <h1 className="text-center mb-5 colab">{colabracion.colab}</h1>
                     <div className="col-12 col-md-4">
-                        <img src={colabracion.foto} alt="foto" className="img-fluid w-100 tema"/>
+                        <img src={colabracion.foto} alt="foto" className="img-fluid w-100 tema" onMouseOver={quehagocuandosedeelevento} onMouseLeave={locontrario}/>
                     </div>
                     <div className="col-12 col-md-4"> 
                         <h3 className='text-center fw-bold colab'>Sobre el Tema</h3>

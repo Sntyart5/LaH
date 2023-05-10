@@ -11,6 +11,13 @@
 
     
 }
+.blancoynegro{
+
+
+    transform: scale(1.5);
+    transition: transform .2s; /* Animation */
+}
+
 .desc{
     padding: 0 25% 10%;
 
