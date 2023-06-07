@@ -1,5 +1,6 @@
 import {Menu} from '../shared/Menu/Menu'
 import {History} from '../History/History'
+import { Toptracks } from '../Toptracks/Toptracks'
 import './Home.css'
 import { Discograpy } from '../Discograpy/Discograpy'
 export function Home(){
@@ -19,7 +20,7 @@ export function Home(){
         </section>
             <Discograpy/>
         <section>
-
+            <Toptracks/>
         </section>
        </>
 

@@ -14,7 +14,7 @@ export function History(){
                     </div>
                     <div className='col-12 col-md-6' >
                         <img src="https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/foto5.jpg?alt=media&token=939da08d-9d66-403a-8ce0-27369434b88b" alt="" className='img-fluid w-75 left-0'/>
-                        <h2>Historia</h2>
+                        <h2 className='histori'>Historia</h2>
                         <p>
                         Su carrera musical profesional comenzó en 2015 sin embargo, tiempo antes ya era conocido como influencer en Puerto Rico y hacía parodias imitando las voces de artistas como Arcángel, Ñejo, Cosculluela, entre otros, posterior a esto, se empezó a desempeñar como compositor.2​ En 2017, colaboró en el sencillo «Me enamoré de una yal», junto a Ñengo Flow y Ele A el Dominio, este fue su primer éxito como artista.3​ Sin embargo, la canción que lo llevó al reconocimiento internacional fue «Mi Cubana» con Cazzu, Khea y Ecko en 2018.4​ En 2019, recibió su primer nominación en los Premios Juventud como Nueva generación urbana.                        </p>
                     </div>

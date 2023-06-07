@@ -8,7 +8,7 @@ nav{
 
 
 }
-a{
+.amenu{
     padding: 10px;
     display: inline-block;
     text-decoration: none;
@@ -20,12 +20,12 @@ a{
     transition: 0.4s all ease;
 }
 
-a:hover{
+.amenu:hover{
     color: #cdcd;
     transition: 0.4s all ease;
 }
 
-a::after{
+.amenu::after{
     content: '';
     position: absolute;
     width: 100%;
@@ -38,7 +38,7 @@ a::after{
     transition: transform 0.5s ease-out;
 }
 
-a:hover::after{
+.amenu:hover::after{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
