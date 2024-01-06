@@ -1,0 +1,62 @@
+.colabs{
+
+
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/colab3.jpg?alt=media&token=965616f4-8bb1-400e-ad77-b2be9e2a03bd');
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    padding: 15% 15% ;
+
+    
+}
+.blancoynegro{
+
+
+    transform: scale(1.5);
+    transition: transform .2s; /* Animation */
+}
+
+.desc{
+    padding: 0 25% 10%;
+
+}
+.dsc{
+    font-size: 20px;
+}
+.img-cola{
+    padding: 0%;
+}
+.colab{
+    background-color: #1c1c1d;
+    color: aliceblue;
+    padding: 2%;
+    margin: 0;
+
+}
+.disco{
+    margin-bottom: 2%;
+}
+
+.ti{
+    color: aliceblue;
+}
+.tema{
+    padding: 0;
+    padding-left: 5%;
+}
+
+.bannerfoot2{
+
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/colabs.jpg?alt=media&token=0dca4097-5607-4c4d-9d85-ff321f929578');
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    padding: 10% 15% ;
+    filter: grayscale(100%);
+
+}
