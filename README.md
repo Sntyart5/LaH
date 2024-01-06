@@ -1,14 +1,14 @@
-<h3 align="center">HACIENDA</h3>
+<h3 align="center">LaH</h3>
 
 
 <!-- Photo -->
-![Screenshot 2023-10-09 233348](https://github.com/Sntyart5/LaH/assets/125420424/e3769c96-173b-412d-82cb-d6f5d9b9b874)
+![Screenshot 2023-10-09 233348](https://github.com/Sntyart5/LaH/assets/125420424/de19a4d7-531f-4784-8af0-4877f0cbd246)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Created in order to make a fully responsive hotel-type website with a hacienda theme with a strong focus on user experience and consuming a rest API created previously for the realization of this project <br>
-currently in development`github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Static website created for an artist with the intention of consuming APIs, especially the Spotify API so that consuming the artist's top tracks
+Status: in development
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
