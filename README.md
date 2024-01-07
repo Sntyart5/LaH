@@ -23,7 +23,7 @@ Status: in development
  
 1. **Clone the repository:**
    ```bash
-    git clone https://github.com/Sntyart5/Hacienda.git
+    git clone https://github.com/Sntyart5/LaH.git
 
 2. **Navigate to the Project Directory:**
     ```bash
