@@ -1,62 +1,52 @@
-.colabs{
-
-
+.colabs {
     background-image: url('https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/colab3.jpg?alt=media&token=965616f4-8bb1-400e-ad77-b2be9e2a03bd');
-    height: 100%;
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    position:relative;
-    padding: 15% 15% ;
-
-    
-}
-.blancoynegro{
-
-
-    transform: scale(1.5);
-    transition: transform .2s; /* Animation */
+    position: relative;
+    padding: 15% 5%; /* Ajuste de los valores de padding */
+    text-align: center; /* Centra el contenido horizontalmente */
 }
 
-.desc{
-    padding: 0 25% 10%;
 
+.intro h4{
+    padding: 0 20%; /* Ajuste de los valores de padding */
+    margin-bottom: 5rem;
+    text-align: center;
 }
-.dsc{
-    font-size: 20px;
+
+.dsc {
+    font-size: 1.3rem; /* Ajuste del tamaño de fuente */
 }
-.img-cola{
-    padding: 0%;
-}
-.colab{
+
+.artist {
     background-color: #1c1c1d;
     color: aliceblue;
     padding: 2%;
-    margin: 0;
-
-}
-.disco{
-    margin-bottom: 2%;
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
-.ti{
+.title_Colaps {
     color: aliceblue;
 }
-.tema{
-    padding: 0;
+
+.tema {
     padding-left: 5%;
 }
 
-.bannerfoot2{
-
+.bannerfoot_colabs {
     background-image: url('https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/colabs.jpg?alt=media&token=0dca4097-5607-4c4d-9d85-ff321f929578');
-    height: 100%;
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    position:relative;
-    z-index: 1;
-    padding: 10% 15% ;
+    position: relative;
     filter: grayscale(100%);
+}
 
+.bannerfoot_colabs img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }

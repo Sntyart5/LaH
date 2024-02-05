@@ -1,0 +1,91 @@
+.banner_Merch img{
+    width: 100%;
+}
+.Shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-bottom: 5rem;
+}
+
+.product {
+    text-align: center;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    margin: 0 1rem ; /* Añade margen entre los productos */
+    padding: 1rem; /* Añade relleno alrededor de los productos */
+    width: 21rem; /* Establece un ancho fijo para los productos */
+}
+
+.product img {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: 150px; /* Establece una altura fija para todos los productos */
+    object-fit: cover; /* Mantiene la relación de aspecto y cubre el contenedor */
+}
+
+.product:hover h3 {
+    border-bottom: 1px solid black;
+}
+
+.bannerfoot{
+
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/Eladio-Carrion_000.jpg?alt=media&token=9f83c2e2-56e5-4a92-8841-801168dd7580');
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    filter: grayscale(100%);
+
+}
+
+.bannerfoot img {
+    max-width: 50%; /* Establece un máximo del 100% del ancho de su contenedor */
+    height: auto; /* Ajusta la altura automáticamente según el ancho */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/*Responsive*/
+/* Para pantallas más pequeñas, ajusta el tamaño de la fuente y el espaciado */
+@media (max-width: 768px) {
+    .product {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        width: 100%; /* Ocupa todo el ancho disponible en dispositivos pequeños */
+    }
+
+    .product img {
+        height: auto; /* Ajusta la altura automáticamente según el ancho */
+    }
+}
+
+/* Para la sección bannerfoot, ajusta el padding en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .bannerfoot {
+        padding: 5% 10%;
+    }
+}
+
+/* Asegúrate de que la imagen del banner tenga un máximo de 100% del ancho de la pantalla */
+.banner_Merch img {
+    width: 100%;
+    height: auto; /* Ajusta la altura automáticamente según el ancho */
+}
+
+/* Estilo general para las secciones */
+.section {
+    padding: 2rem; /* Añade un espacio uniforme alrededor de todas las secciones */
+}
+
+/* Ajusta el tamaño de la fuente para pantallas pequeñas */
+h1 {
+    font-size: 1.5rem;
+}
+
+/* Agrega un estilo a la imagen en la sección bannerfoot */
+.bannerfoot img {
+    max-width: 100%; /* Establece un máximo del 100% del ancho de su contenedor */
+    height: auto; /* Ajusta la altura automáticamente según el ancho */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Ajusta la altura automáticamente según el ancho */
+}

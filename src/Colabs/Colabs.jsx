@@ -44,70 +44,43 @@ export function Colabs(){
             id:5  
         },
 
-        )
-    
-        function quehagocuandosedeelevento(evento){
-            console.log(evento.target.classList.add('blancoynegro'))
-
-        }
-        function locontrario(evento){
-            console.log(evento.target.classList.remove('blancoynegro'))
-        }
-
-
-
-
-
-
-
+    )
 
     return(
         <>
         <section className="colabs">
-           <h1 className='ti'>Colaboraciones </h1> 
-
+           <h1 className='title_Colaps'>Colaboraciones </h1> 
         </section>
 
+        <div className="intro">
             <h1 className=''>Colabs</h1>
-
-            <h4 className='desc'>Eladio Carrion ha anunciado probablemente el disco urbano con mejores colaboraciones de los últimos años. El nuevo disco verá la luz el próximo 17 de marzo y se llamará 3MEN2KBRN. El Rapero ha contado con los artistas más grandes del género, además, muchos de ellos son ajenos al reggaetón. 50 cent, Lil Wayne, Quavo, Future son iconos del Hip Hop y trap americano y no se les suele ver fluir por estos sonidos. Son auténticos precursores del movimiento rapero norteamericano. Sin lugar a duda,este disco va a ser icónico ya que contará en un mismo proyecto con artistas como Lil Wayne, 50, Future y por otro lado tener también a Bad Bunny o Ñengo Flow. ¿Conocéis bien a todos estos artistas? ©copyright los40.com</h4>
-
-        <section className="row">
-
+            <h4 className='description'>Eladio Carrion ha anunciado probablemente el disco urbano con mejores colaboraciones de los últimos años. El nuevo disco verá la luz el próximo 17 de marzo y se llamará 3MEN2KBRN. El Rapero ha contado con los artistas más grandes del género, además, muchos de ellos son ajenos al reggaetón. 50 cent, Lil Wayne, Quavo, Future son iconos del Hip Hop y trap americano y no se les suele ver fluir por estos sonidos. Son auténticos precursores del movimiento rapero norteamericano. Sin lugar a duda,este disco va a ser icónico ya que contará en un mismo proyecto con artistas como Lil Wayne, 50, Future y por otro lado tener también a Bad Bunny o Ñengo Flow. ¿Conocéis bien a todos estos artistas? ©copyright los40.com</h4>
+        </div>
         {
             colaboraciones.map(function(colabracion){
                 return(
             
-            <div className="container disco">
-                 <div className="row">
-
-                    <h1 className="text-center mb-5 colab">{colabracion.colab}</h1>
-                    <div className="col-12 col-md-4">
-                        <img src={colabracion.foto} alt="foto" className="img-fluid w-100 tema" onMouseOver={quehagocuandosedeelevento} onMouseLeave={locontrario}/>
-                    </div>
-                    <div className="col-12 col-md-4"> 
-                        <h3 className='text-center fw-bold colab'>Sobre el Tema</h3>
-                        <h3 className="text-center m-5 dsc">{colabracion.descripcion}</h3>
-                    </div>
-                    <div className="col-12 col-md-4">
-                        <h3 className='text-center fw-bold colab'>Colaboracion</h3>
-                        <h3 className="text-center fw-bold m-5 ">{colabracion.nombre}</h3>
-                    </div>
+        <div className="container-fluid ">
+            <div className="row">
+                <h1 className="artist">{colabracion.colab}</h1>
+                <div className="col-12 col-md-4">
+                    <img src={colabracion.foto} alt="foto" className="img-fluid w-100 tema" />
                 </div>
-
-
+                <div className="col-12 col-md-4">
+                    <h3 className='text-center fw-bold colab'>Sobre el Tema</h3>
+                    <h3 className="text-center m-5 mt-0 dsc">{colabracion.descripcion}</h3>
+                </div>
+                <div className="col-12 col-md-4">
+                    <h3 className='text-center fw-bold colab'>Colaboracion</h3>
+                    <h3 className="text-center fw-bold m-5 ">{colabracion.nombre}</h3>
+                </div>
             </div>
-
-                )
+        </div>
+        )
             })
         }
-
-
-
-        </section>
-
-        <section className="bannerfoot2 text-center">
-            <div className="logo2"> <img src="https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/fondo1-removebg-preview%20(1).png?alt=media&token=1f125e74-cf1d-40b4-8e5c-3634199a5336" alt="" /></div>
+        <section className="bannerfoot_colabs text-center">
+            <div> <img src="https://firebasestorage.googleapis.com/v0/b/men2kbron.appspot.com/o/fondo1-removebg-preview%20(1).png?alt=media&token=1f125e74-cf1d-40b4-8e5c-3634199a5336" alt="" /></div>
         </section>
 
         </>

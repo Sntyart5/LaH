@@ -8,11 +8,11 @@ export function Fans(){
             <div className='login-form  '>
                 <h1>Login</h1>
                 <form action="">
-                    <p>username</p>
+                    <p>Username</p>
                     <input type="text" name="" id="" />
                     <p>Email</p>
                     <input type="email" name="email" id="" />
-                    <a href=""><input type="submit" value="Enviar" className='btn btn-light bnn'/></a>
+                    <input type="submit" value="Enviar" className='btn btn-success'/>
 
                 </form>
             </div>

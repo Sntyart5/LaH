@@ -38,7 +38,7 @@ export function Toptracks(){
                         
 
 
-                        <div className="container trac border rounded shadow-lg  ">
+                        <div className="container track border rounded shadow-lg  ">
 
                             <div className="row rounded ">
                                 <div className="col-md-12 text-center  names rounded-top ">
@@ -50,23 +50,22 @@ export function Toptracks(){
 
                             <div className="row">
                                 <div className="col-md-3 col-12">
-                                    <img className="case " src={cancion.album.images[0].url}/>
+                                    <img className="case" src={cancion.album.images[0].url}/>
                                 </div>
                                 
                                 <div className="col-md-3 col-12">
-                                    <h3 className="pt-5" id="audioContainer">{cancion.artists[0].name} </h3>
+                                    <h3 id="audioContainer">{cancion.artists[0].name} </h3>
                                     
                                 </div>
 
 
-                                <div className="col-md-3 col-12 pt-5">
-                                    
-                                    <audio className=" shadow"  controls src={cancion.preview_url}></audio>
+                                <div className="col-md-3 col-12">
+                                    <audio className="shadow" controls src={cancion.preview_url}></audio>
                                 </div>
 
-                                <div className="col-md-3 col-12 text-center pt-5">
+                                <div className="col-md-3 col-12 text-center pt-5 ">
                                     <p>Popularity</p>
-                                    <h3 className="pa">{cancion.popularity}/100</h3>
+                                    <h4>{cancion.popularity}/100</h4>
                                 </div>
                             </div>
                         </div>

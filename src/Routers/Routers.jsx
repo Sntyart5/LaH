@@ -1,11 +1,10 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, Navigate } from "react-router-dom"
 import { Home } from "../Home/Home"
 import {Menu} from "../shared/Menu/Menu"
-import { Shop } from "../Shop/Shop"
+import { Merch } from "../Merch/Merch"
 import { Footer } from "../shared/Footer/Footer"
 import { Fans } from "../Fans/Fans"
 import { Colabs } from "../Colabs/Colabs"
-import { Carga } from "../Hook/Carga"
 import { SauceB } from "../Albums/SauceB/SauceB"
 export function Ruta(){
     return(
@@ -14,15 +13,18 @@ export function Ruta(){
         
         <Routes>
 
-        <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />}/>
-        <Route path="/fans" element={<Fans />}/>
-        <Route path="/colabs" element={<Colabs />}/>
-        <Route path="/hook" element={<Carga />}/>
+        <Route path="/LaH/home" element={<Home />} />
+        <Route path="/LaH/merch" element={<Merch />}/>
+        <Route path="/LaH/fans" element={<Fans />}/>
+        <Route path="/LaH/colabs" element={<Colabs />}/>
 
-        <Route path="/sb" element={<SauceB />}/>
+        <Route path="/LaH/sb" element={<SauceB />}/>
         
-        
+        {/* Redirección */}
+        <Route
+          path="/LaH/*"
+          element={<Navigate replace to="/LaH/home" />}
+        />
         
         </Routes>
             
